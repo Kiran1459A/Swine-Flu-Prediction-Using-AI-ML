@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swine Flu Predictor - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/pred">Swine flu</a></li>
+                <li><a href="#page3">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Sign-in</button></a>
+    </header>
+    <article id="page1">
+        <img src="{{ url_for('static', filename='Image/' + "swine f.jpg") }}" alt="Your Image">
+        <div class="content">
+            <h1>Swine Flu</h1>
+            <p>Swine flu, also known as the H1N1 influenza virus, is a respiratory illness caused by influenza viruses that infect the respiratory tract of pigs. The virus is spread from infected pigs to humans, usually through close contact with infected pigs or environments contaminated with swine flu viruses.</p>
+            <p>Human-to-human transmission of swine flu also occurs, primarily through respiratory droplets produced when an infected person coughs or sneezes. Influenza viruses can also survive on surfaces for a short period, contributing to the spread of the virus.</p>
+            <p>Swine flu viruses are a combination of genetic material from human, avian, and swine influenza viruses. The ability of these viruses to undergo genetic reassortment contributes to the emergence of new strains of influenza viruses that can infect humans and cause pandemics.</p>
+        </div>
+    </article>
+    <article id="page2">
+        <div class="content">
+            <h1>Causes of Swine Flu</h1>
+            <p>Swine flu is caused by influenza viruses that infect the respiratory tract of pigs. The virus is spread from infected pigs to humans, usually through close contact with infected pigs or environments contaminated with swine flu viruses.</p>
+            <p>Human-to-human transmission of swine flu also occurs, primarily through respiratory droplets produced when an infected person coughs or sneezes. Influenza viruses can also survive on surfaces for a short period, contributing to the spread of the virus.</p>
+            <p>Swine flu viruses are a combination of genetic material from human, avian, and swine influenza viruses. The ability of these viruses to undergo genetic reassortment contributes to the emergence of new strains of influenza viruses that can infect humans and cause pandemics.</p>
+        </div>
+        <img src="https://via.placeholder.com/400" alt="Page 2 Image">
+    </article>
+    <article id="page3">
+        <div class="content">
+            <h1>Advantages of Swine Flu Prediction</h1>
+            <p>Early prediction and detection of swine flu outbreaks can provide several advantages:</p>
+            <ul>
+                <li><strong>Preventive Measures:</strong> Early detection allows for prompt implementation of preventive measures, such as vaccination campaigns, antiviral treatment, and public health interventions, to reduce the spread of the virus and mitigate the impact of the outbreak.</li>
+                <li><strong>Resource Allocation:</strong> Predictive models can help public health authorities allocate resources more effectively by identifying high-risk areas and populations, optimizing the distribution of vaccines, antiviral medications, and medical supplies.</li>
+                <li><strong>Public Awareness:</strong> Swine flu prediction models can raise public awareness about the risk of infection, encourage individuals to adopt preventive behaviors, and promote vaccination uptake, ultimately reducing the burden of disease and improving community health.</li>
+                <li><strong>Healthcare Planning:</strong> Predictive analytics can assist healthcare providers and institutions in planning for increased demand for medical services, ensuring adequate staffing, hospital bed availability, and medical equipment to manage swine flu cases effectively.</li>
+            </ul>
+        </div>
+        <img src="https://via.placeholder.com/400" alt="Page 3 Image">
+    </article>
+</body>
+</html>
